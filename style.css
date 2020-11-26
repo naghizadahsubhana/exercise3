@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav {
+  width: 70%;
+  margin: auto;
+}
+
+body header nav p {
+  font-size: 40px;
+  letter-spacing: 5px;
+  padding: 25px;
+}
+
+body header nav img {
+  width: 100%;
+  height: 400px;
+}
+
+body main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+}
+
+body main .container .content .photo1, body main .container .content .photo2 {
+  width: 30%;
+  padding: 30px;
+}
+
+body main .container .content .photo1 div, body main .container .content .photo2 div {
+  padding: 30px;
+}
+
+body main .container .content .photo1 div img, body main .container .content .photo2 div img {
+  width: 20px;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
